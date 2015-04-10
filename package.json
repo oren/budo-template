@@ -4,10 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "budo app.js --port 3000 --live -o bundle.js | garnish"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "budo": "^2.1.5",
     "garnish": "^2.1.2",
