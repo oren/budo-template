@@ -2,6 +2,6 @@
 
 ## Run
 
-    bin/build
-    bin/install
-    bin/watch
+    docker-compose build
+    docker-compose run app npm install
+    docker-compose run --service-ports app npm run watch

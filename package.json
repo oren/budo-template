@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "watch": "budo app.js --port 3000 --live -o bundle.js | garnish"
+    "watch": "budo app.js --port 3000 --verbose --live -o bundle.js | garnish"
   },
   "devDependencies": {
     "budo": "^2.1.5",
