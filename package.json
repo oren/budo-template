@@ -4,10 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "watch": "budo app.js --port 3000 --verbose --live -o bundle.js | garnish"
+    "watch": "budo app.js:bundle.js --port 3000 --verbose --live | garnish"
   },
   "devDependencies": {
-    "budo": "^2.1.5",
+    "budo": "^3.0.4",
     "garnish": "^2.1.2",
     "watchify": "^3.1.0"
   },
